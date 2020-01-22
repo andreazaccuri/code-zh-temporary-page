@@ -1,5 +1,5 @@
 body {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px;
 }
 
@@ -15,8 +15,8 @@ body {
 
 header {
     position: fixed;
-    left: 10px;
-    top: 10px;
+    left: 20px;
+    top: 20px;
 }
 
 h1 {
@@ -26,7 +26,6 @@ h1 {
     margin-bottom: 0;
     font-weight: inherit;
 }
-
 
 h2 {
     font-family: "SangBlue", serif;
@@ -42,13 +41,6 @@ a {
     color: inherit;
 }
 
-footer {
-    font-family: "SangBlue", serif;
-    position: fixed;
-    bottom: 20px;
-    left: 10px;
-}
-
 section {
     height: 100vh;
     background-position: center;
@@ -56,4 +48,7 @@ section {
     background-size: cover;
     overflow: hidden;
 }
-    
+
+#pic2 {
+    background-image: url(../img/b-01.jpg);
+}
