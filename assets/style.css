@@ -21,7 +21,7 @@ header {
 
 h1 {
     font-size: 1.5em;
-    font-family: SuisseIntl, sans-serif;
+    font-family: "SuisseIntl", sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: inherit;
@@ -29,11 +29,11 @@ h1 {
 
 
 h2 {
-    font-family: SangBlue, serif;
+    font-family: "SangBlue", serif;
     font-size: 1em;
     display: inline-block;
     vertical-align: top;
-    margin-right: 40px;
+    margin-right: 20px;
     font-weight: inherit;
 }
 
@@ -43,6 +43,7 @@ a {
 }
 
 footer {
+    font-family: "SangBlue", serif;
     position: fixed;
     bottom: 20px;
     left: 10px;
