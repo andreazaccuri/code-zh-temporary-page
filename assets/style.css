@@ -91,3 +91,7 @@ footer {
         left: 10px;
     }
 }
+
+body.noScroll { /* ...or body.dialogShowing */
+    overflow: hidden;
+  }
