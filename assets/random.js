@@ -5,3 +5,7 @@ window.onload = () => {
      document.body.style.backgroundImage = `url(${myPix[randomNum]})`;
      document.getElementById("info-display").innerHTML = info[randomNum];
 }
+
+targetElement.ontouchend = (e) => {
+     e.preventDefault();
+ };

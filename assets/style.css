@@ -1,3 +1,7 @@
+html, body {
+    overflow: hidden;
+  }
+
 body {
     font-size: 16px;
     line-height: 1.55;
@@ -91,7 +95,3 @@ footer {
         left: 10px;
     }
 }
-
-body.noScroll { /* ...or body.dialogShowing */
-    overflow: hidden;
-  }
