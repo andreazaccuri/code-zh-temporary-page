@@ -6,10 +6,10 @@ const info = ["Bl&#228;ttler Dafflon Architekten, Invitation&nbsp;Card (Photogra
 "Princeton University Art Museum, Frank Gehry: 'On Line', Book Design", 
 "Princeton University Art Museum, Frank Gehry: 'On Line', Book Design",
 "Realgymnasium R&#228;mib&#252;hl Z&#252;rich, Printed Matters (Photography:&nbsp;&#169;Saskja&nbsp;Rosset)", 
-"Realgmnasium R&#228;mib&#252;hl Z&#252;rich, Give-aways (T-Shirt)",
+"Realgymnasium R&#228;mib&#252;hl Z&#252;rich, Give-aways (T-Shirt)",
 "FHNW, Lecture Series: “Very Much Dutch”, Poster", 
 "UBS Real Estate Management, anfos/haus, Signage",
-"Baugenossenschaft Frohheim, Riedgraben, Signage"]
+"Baugenossenschaft Frohheim, Riedgraben, Signage (Photography:&nbsp;&#169;Saskja&nbsp;Rosset)"]
 
 window.onload = () => {
      const randomNum = Math.floor(Math.random() * myPix.length);
