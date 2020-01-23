@@ -1,6 +1,9 @@
 body {
     font-size: 16px;
     margin: 0px;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center1;
 }
 
 @font-face {
