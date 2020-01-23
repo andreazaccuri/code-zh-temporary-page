@@ -7,7 +7,8 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     letter-spacing: 0.03em;
-
+    color: mintcream;
+    
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
@@ -35,7 +36,6 @@ h1 {
     font-size: 1.5em;
     font-family: "SuisseIntl", sans-serif;
     font-weight: inherit;
-    color: whitesmoke;
 }
 
 h2 {
@@ -46,7 +46,6 @@ h2 {
     margin-top: 20px;
     margin-right: 40px;
     font-weight: inherit;
-    color: whitesmoke;
 }
 
 a {
