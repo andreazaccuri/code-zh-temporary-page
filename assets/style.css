@@ -1,11 +1,12 @@
 body {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.55;
     margin: 0px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    letter-spacing: 0.03em;
 
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
@@ -28,13 +29,13 @@ header {
     position: fixed;
     left: 20px;
     top: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
 }
 
 h1 {
     font-size: 1.5em;
     font-family: "SuisseIntl", sans-serif;
     font-weight: inherit;
+    color: whitesmoke;
 }
 
 h2 {
@@ -43,8 +44,9 @@ h2 {
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     font-weight: inherit;
+    color: whitesmoke;
 }
 
 a {
@@ -62,7 +64,6 @@ section {
 
 footer {
     font-family: "SangBlue", serif;
-    color: red;
     font-size: 1em;
     position: fixed;
     bottom: 20px;
@@ -72,7 +73,7 @@ footer {
 @media (max-width: 740px) {
 
     body {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     header {
@@ -90,6 +91,4 @@ footer {
         bottom: 10px;
         left: 10px;
     }
-
-
 }
