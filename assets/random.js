@@ -1,4 +1,4 @@
-const myPix = ["img/b-01.jpg", "img/b-02.jpg", "img/b-03.jpg", "img/b-04.jpg", "img/b-05.jpg", "img/b-06.jpg", "img/b-07.jpg", "img/b-08.jpg", "img/b-09.jpg", "img/b-10.jpg", "img/b-11.jpg"];
+const myPix = ["img/b-01.jpg", "img/b-02.jpg", "img/b-03.jpg", "img/b-04.jpg", "img/b-05.jpg", "img/b-06.jpg", "img/b-07.jpg", "img/b-08.jpg", "img/b-09.jpg", "img/b-10.jpg", "img/b-11.jpg", "img/b-12.jpg"];
 const info = ["Bl&#228;ttler Dafflon Architekten, Invitation&nbsp;Card (Photography:&nbsp;&#169;Saskja&nbsp;Rosset)", 
 "Bl&#228;ttler Dafflon Architekten, Invitation Card (Photography:&nbsp;&#169;Saskja&nbsp;Rosset)",
 "Baugenossenschaft Frohheim, Magazine 'Frohheim' (Illustration:&nbsp;&#169;Leander&nbsp;Eisenmann)", 
@@ -9,9 +9,9 @@ const info = ["Bl&#228;ttler Dafflon Architekten, Invitation&nbsp;Card (Photogra
 "Realgymnasium R&#228;mib&#252;hl Z&#252;rich, Give-aways (T-Shirt)",
 "FHNW, Lecture Series: “Very Much Dutch”, Poster", 
 "UBS Real Estate Management, anfos/haus, Signage",
-"Baugenossenschaft Frohheim, Riedgraben, Signage (Photography:&nbsp;&#169;Saskja&nbsp;Rosset)"]
+"Baugenossenschaft Frohheim, Riedgraben, Signage (Photography:&nbsp;&#169;Saskja&nbsp;Rosset)", "Collegium Novum Z&#252;rich, Identity + Printed Matter + Website"]
 
-window.onload = () => {
+window.onclick = () => {
      const randomNum = Math.floor(Math.random() * myPix.length);
      document.body.style.backgroundImage = `url(${myPix[randomNum]})`;
      document.getElementById("info-display").innerHTML = info[randomNum];
