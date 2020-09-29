@@ -8,18 +8,17 @@
     font-weight: normal;
 }
 
-html, body {
-    overflow: hidden;
-  }
-
 body {
     font-size: 16px;
-    line-height: 1.55;
+    line-height: 1.45;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     letter-spacing: 0.03em;
+    color: #000000;
+    font-weight: inherit;
+    overflow: hidden;
     /*
     -webkit-user-select: none;  /* Chrome all / Safari all */
    /* -moz-user-select: none;     /* Firefox all */
@@ -29,67 +28,67 @@ body {
     */
 }
 
-header div {
-    float: left;
-    width: 50%; 
+header {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    align-items: center;  
 }
 
 .menu {
-    background-color: #FFFF00;
+    background-color: #FFFF00; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+header :nth-child(3) {
+    
+    background-color: cyan;
+}
+
+.menu a {
+    font-family: "SangBlue", serif;  
+    size: 1em;
     padding-left: 10px;
-    padding-right: 10px;
-}
 
-section div {
-    float: left;
-    width: 50%;
 }
-
-.text {
-    color: #000000;
-    padding-top: 100px;
-}
-
-.text p {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.dog {
-    background-image: url(../img/gino.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
 
 h1 {
     font-family: "SuisseIntl", sans-serif;
-    font-weight: inherit;
     font-size: 1em;
-    color: #000000;
     background-color: #FF0000;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 h2 {
-    font-family: "SangBlue", serif;
-    font-weight: inherit;
-    color: #000000;
-    font-size: 0.85em;
-    padding-top: 2.5px;
-    padding-right: 10px;
-    padding-bottom: 2.5px;
-    padding-left: 10px;
+    font-family: "SuisseIntl", sans-serif;
+    margin-top: 10px;
 }
 
+.text h2:nth-child(1) {
+    margin-top: 0px;
+}
 
-h3 {
-    font-family: "SuisseIntl", sans-serif;
-    font-weight: inherit;
-    color: #000000;
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+}
+
+.text {
+    overflow-y: scroll;
+    padding-right: 10px;
     padding-left: 10px;
-    margin-top: 10px;
+   
+}
 
+.dog {
+    background-image: url(../img/gino-2.jpg);
+    background-size: cover;
+    background-position: center;
+/*    height: 100vh;*/
+    
 }
 
 a {
@@ -105,8 +104,8 @@ footer {
     position: fixed;
     bottom: 0px;
     left: 0px;
-    font-size: 0.85em;
-    color: black;   
+    font-size: 0.833em;
+    color: black;
 }
 
 footer p{
@@ -114,12 +113,12 @@ footer p{
 }
 
 #info-display{
+    font-family: "SuisseIntl", sans-serif;
     background-color: #FF0000;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 2.5px;
     padding-bottom: 2.5px;
-    font-family: "SuisseIntl", sans-serif;
 }
 
 #category {
